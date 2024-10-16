@@ -8,13 +8,13 @@ public class Main {
         Tank anywareTank = new Tank(10, 10);
 // At (20;30) fuel=200
         Tank customTank = new Tank(20, 30, 200);
-        justTank.goForward(200);
+        justTank.goForward(-99);
         justTank.printPosition();
         justTank.printFuel();
-        anywareTank.goBackward(-200);
+        anywareTank.goBackward(88);
         anywareTank.printPosition();
         anywareTank.printFuel();
-        customTank.goForward(201);
+        customTank.goForward(255);
         customTank.printPosition();
         customTank.printFuel();
     }
